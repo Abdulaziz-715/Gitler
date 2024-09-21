@@ -1,0 +1,360 @@
+/* ****** */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 90px;
+    background: url(../images/Header__IMG.png);
+}
+
+.header__wrapper{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+/* Hero */
+
+.hero{
+    width: 100%;
+    height: 696px;
+    background: url(../images/Header__IMG.png);
+}
+
+.hero__wrapper{
+    position: relative;
+}
+
+.hero__left{
+    margin-left: 100px;
+}
+
+.hero__title{
+    padding-top: 130px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.hero__suptitle{
+    padding-top: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hero__btn{
+    width: 193px;
+    height: 51px;
+    margin-top: 34px;
+    border: none;
+    border-radius: 100px;
+    background: rgb(10, 119, 95);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.hero__right{
+    position: absolute;
+    left: 722px;
+    bottom: -235px;
+}
+
+.alfred{
+    position: absolute;
+    left: 630px;
+    bottom: 330px;
+}
+
+/* Collection */
+
+.collection{
+    width: 100%;
+    height: 564px;
+    background: url(../images/Collection__IMG.png);
+    text-align: center;
+    position: relative;
+}
+
+.collection__title{
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.collection__wrapper{
+    margin-top: 80px;
+    display: flex;
+    gap: 117px;
+}
+
+.right__title{
+    padding-top: 121px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.right__suptitle{
+    padding-top: 10px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.collection__left{
+    margin-left: 143px;
+}
+
+.collection__right{
+    text-align: start;
+}
+
+.collection__wrappers{
+    display: flex;
+    justify-content: end;
+    gap: 117px;
+}
+
+.collection__left__two{
+    margin-right: 100px;
+}
+
+.collection__wrapper__two{
+    display: flex;
+    gap: 117px;
+}
+
+/* Why */
+
+.why{
+    text-align: center;
+    background: url(../images/Why__IMG.png);
+}
+
+.why__title{
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.why__suptitle{
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.why__wrapper{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Why__two */
+
+.wrapper{
+    display: flex;
+    gap: 93px;
+    margin-top: 70px;
+}
+
+.title{
+    padding-top: 28px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.suptitle{
+    padding-top: 10px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* How */
+
+.how{
+    width: 100%;
+    height: 826px;
+    text-align: center;
+    margin-top: 80px;
+    background: url(../images/How__IMG.png);
+}
+
+.how__title{
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.style{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.square{
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 4px solid rgb(201, 155, 103);
+    background: rgb(248, 248, 242);
+}
+
+.border{
+    width: 393px;
+    height: 0;
+    border: 3px dashed rgb(201, 155, 103);
+}
+
+.num{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.num__one{
+    width: 433px;
+    height: 396px;
+    background: rgb(248, 248, 242);
+}
+
+.number{
+    text-align: end;
+    padding-right: 20px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.num__title{
+    text-align: start;
+    padding-top: 45px;
+    padding-left: 20px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+}
+
+.num__suptitle{
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.end__btn{
+    width: 193px;
+    height: 51px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 100px;
+    background: rgb(201, 155, 103);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+/* End */
+
+.end__coffe{
+    width: 100%;
+    height: 160px;
+    background: url(../images/End__IMG.png);
+}
+
+.end__wrapper{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end{
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    list-style: none;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.end__icons{
+    display: flex;
+    gap: 30px;
+}
