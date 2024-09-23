@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 90px;
+    background: url(../images/Header__IMG.png);
+
+
+    .header__wrapper {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__right {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        text-transform: uppercase;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 1px;
+    }
+
+    .header_pages {
+        list-style: none;
+        text-transform: uppercase;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 1px;
+    }
+}

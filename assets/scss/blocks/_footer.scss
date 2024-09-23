@@ -1,0 +1,32 @@
+.end__coffe {
+    width: 100%;
+    height: 160px;
+    background: url(../images/End__IMG.png);
+
+
+    .end__wrapper {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .end {
+        display: flex;
+        gap: 40px;
+        text-transform: uppercase;
+        list-style: none;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 1px;
+    }
+
+    .end__icons {
+        display: flex;
+        gap: 30px;
+    }
+}
