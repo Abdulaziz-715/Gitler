@@ -50,7 +50,6 @@
 // hero 
 .hero {
     width: 100%;
-    height: 696px;
     background: url(../images/Header__IMG.png);
 
     .hero__wrapper {
@@ -67,17 +66,16 @@
 
     .hero__title {
         width: 447px;
-        padding-top: 130px;
         color: rgb(0, 0, 0);
         font-family: Roboto;
         font-size: 64px;
         font-weight: 700;
         line-height: 75px;
+
     }
 
     .hero__suptitle {
         width: 464px;
-        padding-top: 24px;
         color: rgb(0, 0, 0);
         font-family: Roboto;
         font-size: 16px;
@@ -102,15 +100,24 @@
 
     .hero__right {
         position: relative;
-        width: 600px;
-        height: 640px;
+    
     }
 
     .alfred {
         position: absolute;
-        right: 2660px;
-        top: 20px;
+        left: 60px;
+        top: 10px;
     }
+
+    .abh {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 372px;
+    }
+
 }
 
 .collection {
