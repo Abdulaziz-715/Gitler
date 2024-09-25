@@ -100,7 +100,7 @@
 
     .hero__right {
         position: relative;
-    
+
     }
 
     .alfred {
@@ -122,12 +122,14 @@
 
 .collection {
     width: 100%;
-    height: 564px;
     background: url(../images/Collection__IMG.png);
     text-align: center;
     position: relative;
+    padding-bottom: 60px;
 
-
+.cst {
+    width: 626px;
+}
     .collection__title {
         padding-top: 50px;
         color: rgb(0, 0, 0);
@@ -140,7 +142,9 @@
     .collection__wrapper {
         margin-top: 80px;
         display: flex;
-        gap: 117px;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
     .right__title {
@@ -161,12 +165,10 @@
         line-height: 34px;
     }
 
-    .collection__left {
-        margin-left: 143px;
-    }
 
     .collection__right {
         text-align: start;
+
     }
 
     .collection__wrappers {
