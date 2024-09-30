@@ -50,7 +50,6 @@
 // hero 
 .hero {
     width: 100%;
-    height: 696px;
     background: url(../images/Header__IMG.png);
 
     .hero__wrapper {
@@ -67,17 +66,16 @@
 
     .hero__title {
         width: 447px;
-        padding-top: 130px;
         color: rgb(0, 0, 0);
         font-family: Roboto;
         font-size: 64px;
         font-weight: 700;
         line-height: 75px;
+
     }
 
     .hero__suptitle {
         width: 464px;
-        padding-top: 24px;
         color: rgb(0, 0, 0);
         font-family: Roboto;
         font-size: 16px;
@@ -102,24 +100,36 @@
 
     .hero__right {
         position: relative;
-        width: 600px;
-        height: 640px;
+
     }
 
     .alfred {
         position: absolute;
-        right: 2660px;
-        top: 20px;
+        left: 60px;
+        top: 10px;
     }
+
+    .abh {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 372px;
+    }
+
 }
 
 .collection {
     width: 100%;
-    height: 564px;
     background: url(../images/Collection__IMG.png);
     text-align: center;
     position: relative;
+    padding-bottom: 60px;
 
+    .cst {
+        width: 626px;
+    }
 
     .collection__title {
         padding-top: 50px;
@@ -133,7 +143,9 @@
     .collection__wrapper {
         margin-top: 80px;
         display: flex;
-        gap: 117px;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
     .right__title {
@@ -154,12 +166,10 @@
         line-height: 34px;
     }
 
-    .collection__left {
-        margin-left: 143px;
-    }
 
     .collection__right {
         text-align: start;
+
     }
 
     .collection__wrappers {
@@ -182,6 +192,34 @@
     text-align: center;
     background: url(../images/Why__IMG.png);
 
+    .whyy_wrapper {
+        display: flex;
+    }
+
+    .why_text_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .wt {
+        width: 397px;
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 59px;
+    }
+
+    .wst {
+        width: 555px;
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
 
     .why__title {
         padding-top: 50px;
@@ -236,6 +274,97 @@
     }
 }
 
+// head 
+.head {
+    background: rgb(10, 119, 95);
+    padding-bottom: 100px;
+
+
+    .head_title {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 59px;
+        text-align: center;
+        padding-bottom: 80px;
+        padding-top: 50px;
+    }
+
+    .head_wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    .head_box {
+        width: 433px;
+        height: 396px;
+        background: rgb(248, 248, 242);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 140px;
+        position: relative;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .head_box_2 {
+        width: 433px;
+        height: 396px;
+        background: rgb(248, 248, 242);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 187px;
+        position: relative;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .head_box_3 {
+        width: 433px;
+        height: 396px;
+        background: rgb(248, 248, 242);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 187px;
+        position: relative;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .head_img {
+        position: absolute;
+        top: 45px;
+        left: 200px;
+    }
+
+    .head_box_title {
+        width: 231px;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 47px;
+        text-align: left;
+    }
+
+    .head_box_suptitle {
+
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+}
+
 /* How */
 
 .how {
@@ -274,18 +403,40 @@
         height: 0;
         border: 3px dashed rgb(201, 155, 103);
     }
+
+    .end__btn {
+        border-radius: 15px;
+        border: none;
+        background: rgb(201, 155, 103);
+        width: 193px;
+        height: 51px;
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 60px;
+        cursor: pointer;
+    }
 }
 
 .num {
     margin-top: 20px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 
 
     .num__one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 433px;
-        height: 396px;
+        height: auto;
         background: rgb(248, 248, 242);
+        padding-bottom: 20px;
+
     }
 
     .number {
@@ -299,9 +450,8 @@
     }
 
     .num__title {
+        padding-left: 15px;
         text-align: start;
-        padding-top: 45px;
-        padding-left: 20px;
         color: rgb(51, 51, 51);
         font-family: Roboto;
         font-size: 40px;
@@ -310,9 +460,8 @@
     }
 
     .num__suptitle {
+        padding-left: 15px;
         text-align: start;
-        padding-top: 10px;
-        padding-left: 20px;
         color: rgb(51, 51, 51);
         font-family: Roboto;
         font-size: 18px;
@@ -320,20 +469,7 @@
         line-height: 28px;
     }
 
-    .end__btn {
-        width: 193px;
-        height: 51px;
-        margin-top: 60px;
-        border: none;
-        border-radius: 100px;
-        background: rgb(201, 155, 103);
-        color: rgb(255, 255, 255);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 1px;
-    }
+
 }
 
 
@@ -369,5 +505,162 @@
     .end__icons {
         display: flex;
         gap: 30px;
+    }
+}
+
+.drink {
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+    .drink_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .drink_list {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .drink_list2 {
+        cursor: pointer;
+        color: rgb(85, 85, 85);
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 33px;
+        transition: .3s linear;
+        list-style: none;
+        padding-top: 10px;
+    }
+
+    .drink_list2:hover {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 33px;
+    }
+
+    .drink_info2 {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        list-style: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .drink_info2 span {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .drink_box_wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .drink_box {
+        width: 206.92px;
+        height: 220px;
+        background: rgb(220, 247, 241);
+        transition: .9s linear;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 15px;
+    }
+
+    .drink_box {
+        transition: .9s linear;
+    }
+
+    .drink_box:hover {
+        background: rgb(10, 119, 95);
+
+    }
+
+    .drink_box:hover * {
+        color: rgb(255, 255, 255);
+
+    }
+
+    .drink_box_title {
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .drink_box_suptitle {
+        width: 172.93px;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .di2 {
+        padding-top: 80px;
+    }
+
+    .drink_box_2 {
+        width: 660px;
+        height: 181px;
+        background: rgb(201, 155, 103);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px 0 20px;
+        gap: 14px;
+        margin-top: 100px;
+    }
+
+    .drink_box_text {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .drink_box_suptitle2 {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        width: 618px;
+        color: rgb(255, 255, 255);
+    }
+
+    .drink_box_suptitle2 span {
+        color: rgb(0, 0, 0);
+    }
+
+    .drink_btn {
+        border-radius: 100px;
+        border: none;
+        background: rgb(10, 119, 95);
+        width: 175px;
+        height: 51px;
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 1px;
+        margin-left: 485px;
+        margin-top: 20px;
     }
 }
